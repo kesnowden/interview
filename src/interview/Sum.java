@@ -9,7 +9,10 @@ public class Sum {
 	 * the method should return 9 (3 + 6). 
 	 */
 	public int multiplesOfThree(int input) {
-		return 0;
+		int k = input / 3;
+		int count = (k * (k + 1)) / 2;
+		int sum = count * 3;
+		return sum;
 	}
 
 }
