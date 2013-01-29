@@ -8,6 +8,6 @@ public class Palindrome {
 	 * the same backwards and forwards.
 	 */
 	public boolean isPalindrome(String input) {
-		return true;
+		return (input.equals(Reverse(input)));
 	}
 }
